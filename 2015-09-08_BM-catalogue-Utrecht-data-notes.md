@@ -6,7 +6,7 @@ All data derived from a [SPARQL query](https://gist.github.com/drjwbaker/713a8bf
 
 All code in this repository is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
 
-As data derived from the [British Museum Semantic Web Collection Online](http://collection.britishmuseum.org/licensing.html) data and viz in this repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+As data derived from the [British Museum Semantic Web Collection Online](http://collection.britishmuseum.org/licensing.html), data and viz in this repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 James Baker, University of Sussex.
 
