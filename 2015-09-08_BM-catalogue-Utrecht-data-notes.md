@@ -4,9 +4,9 @@ To match viz with figures in talk, see [2015-09-08_BM-catalogue-Utrecht-figure-l
 
 All data derived from a [SPARQL query](https://gist.github.com/drjwbaker/713a8bfc5afb91017503) on the [British Museum SPAQRL service](http://collection.britishmuseum.org/sparql) November 2014. Data © Trustees of the British Museum, [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) Subsequent clean-up of the data undertaken by the author using a variety of manual and automated processes.
 
-All viz and code in this repository is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
+All code in this repository is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
 
-All data in this repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+As data derived from the [British Museum Semantic Web Collection Online](http://collection.britishmuseum.org/licensing.html) data and viz in this repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 James Baker, University of Sussex.
 
