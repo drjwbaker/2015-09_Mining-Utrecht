@@ -1,0 +1,21 @@
+YEAR,CATEGORY,COUNT,PRINTS,SPEECH_ACTS,IDENTITY
+1792,named female,9,47,71,named
+1797,named female,3,40,136,named
+1802,named female,15,32,87,named
+1807,named female,1,20,57,named
+1812,named female,5,13,40,named
+1792,named male,23,47,71,named
+1797,named male,56,40,136,named
+1802,named male,33,32,87,named
+1807,named male,25,20,57,named
+1812,named male,13,13,40,named
+1792,unnamed female,7,47,71,unnamed
+1797,unnamed female,21,40,136,unnamed
+1802,unnamed female,12,32,87,unnamed
+1807,unnamed female,3,20,57,unnamed
+1812,unnamed female,3,13,40,unnamed
+1792,unnamed male,32,47,71,unnamed
+1797,unnamed male,55,40,136,unnamed
+1802,unnamed male,26,32,87,unnamed
+1807,unnamed male,26,20,57,unnamed
+1812,unnamed male,17,13,40,unnamed

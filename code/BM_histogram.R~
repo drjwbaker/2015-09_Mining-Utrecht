@@ -1,0 +1,23 @@
+#loadpackages
+
+setwd("/home/james/Documents/2015-07_BM-R/derived_data")
+library(lubridate)
+library(dplyr, warn.conflicts = FALSE)
+library(tidyr, warn.conflicts = FALSE)
+library(ggplot2)
+
+#read data from csv
+
+names <- read.csv("BM.csv")
+
+#plot data
+
+ggplot(names, aes(x = N)) +
+	ggtitle("A Histogram") +
+	geom_histogram()
+
+#save data to file
+
+setwd("/home/james/Documents/2015-07_BM-R/viz")
+
+ggsave("BM_histogram.png", width = 7, height = 7)

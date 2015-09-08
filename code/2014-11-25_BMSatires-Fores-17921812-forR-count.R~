@@ -1,0 +1,22 @@
+#load packages
+
+setwd("/home/james/R/2014-11_BM-catalogue")
+library(lubridate)
+library(dplyr, warn.conflicts = FALSE)
+library(tidyr, warn.conflicts = FALSE)
+library(ggplot2)
+library(dplyr)
+
+#read data from csv
+
+gender <- read.csv("2014-11-25_BMSatires-Fores-17921812-forR.csv")
+
+#plot data
+
+ggplot(gender, aes(x = YEAR, y = COUNT, fill = CATEGORY)) +
+	geom_bar(stat = "identity") +
+	coord_flip()
+
+#save data to file
+
+ggsave("2014-11-25_BMSatires-Fores-17921812-forR-count.png", width = 7, height = 7)

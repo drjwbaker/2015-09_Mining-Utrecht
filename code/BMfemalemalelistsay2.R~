@@ -1,0 +1,25 @@
+#load packages
+
+setwd("/home/james/R/2014-11_BM-catalogue/data")
+library(lubridate)
+library(dplyr, warn.conflicts = FALSE)
+library(tidyr, warn.conflicts = FALSE)
+library(ggplot2)
+library(dplyr)
+
+#read data from csv
+
+gender <- read.csv("BMfemalemalelistsay.csv")
+
+#plot data
+
+ggplot(gender, aes(x = DATE, y = TSCORE, group = CATEGORY, linetype = CATEGORY)) +
+	geom_line() +
+	xlim(1786, 1813) +
+	facet_grid(WORD ~ .)
+	ggtitle("Female and male category words 5L5R of say-lemma in BMSat")
+
+#save data to file
+
+setwd("/home/james/R/2014-11_BM-catalogue/viz")
+ggsave("BMfemalemalelistsay2.png", width = 7, height = 7)
