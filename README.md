@@ -1,7 +1,5 @@
-# 2015-09_Mining-Utrecht
-Data, viz, and code for a talk presented at Beyond Methods of Mining, Utrecht University, 14-15 September 2015
-
 ## Notes
+Data, viz, and code for a talk presented at Beyond Methods of Mining, Utrecht University, 14-15 September 2015
 
 All data derived from a [SPARQL query](https://gist.github.com/drjwbaker/713a8bfc5afb91017503) on the [British Museum SPAQRL service](http://collection.britishmuseum.org/sparql) November 2014. Subsequent clean-up of the data undertaken by the author using a variety of manual and automated processes.
 
